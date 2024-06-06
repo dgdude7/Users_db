@@ -1,0 +1,143 @@
+09:40:29 PM: DEBUG [logger base.py:13] Mensaje a nivel debug
+09:40:29 PM: INFO [logger base.py:14] Mensaje a nivel info
+09:40:29 PM: WARNING [logger base.py:15] Mensaje a nivel warning
+09:40:29 PM: ERROR [logger base.py:16] Mensaje a nivel error
+09:40:29 PM: CRITICAL [logger base.py:17] Mensaje a nivel critical
+10:25:42 PM: DEBUG [Conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000216B48C69D0>
+10:25:42 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x00000216B47F98B0; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+10:25:42 PM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x00000216B47F98B0; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+10:25:42 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x00000216B47F98B0; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+10:26:10 PM: DEBUG [Conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001B7F3249110>
+10:26:10 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x000001B7F17E8F20; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+10:26:10 PM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x000001B7F17E8F20; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+10:26:10 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x000001B7F17E8F20; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+10:26:10 PM: DEBUG [Conexion.py:49] Se ha cerrado el pool de conexiones
+10:39:09 PM: DEBUG [CursorPool.py:11] Inicia el metodo __enter__
+10:39:09 PM: DEBUG [Conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001ED77871150>
+10:39:09 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x000001ED792B99C0; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+10:39:09 PM: DEBUG [CursorPool.py:31] []
+10:39:09 PM: DEBUG [CursorPool.py:17] Se inicia metodo __exit__
+10:39:09 PM: DEBUG [CursorPool.py:23] Commit de la transaccion
+10:39:09 PM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x000001ED792B99C0; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:07:01 PM: DEBUG [CursorPool.py:11] Inicia el metodo __enter__
+05:07:01 PM: DEBUG [Conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000028CA6FA2ED0>
+05:07:01 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x0000028CA701D360; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:07:01 PM: DEBUG [CursorPool.py:31] []
+05:07:01 PM: DEBUG [CursorPool.py:17] Se inicia metodo __exit__
+05:07:01 PM: DEBUG [CursorPool.py:23] Commit de la transaccion
+05:07:01 PM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x0000028CA701D360; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:27:36 PM: DEBUG [CursorPool.py:11] Inicia el metodo __enter__
+05:27:36 PM: DEBUG [Conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000186B0394C10>
+05:27:36 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x00000186B21597A0; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:27:36 PM: DEBUG [UsuarioDAO.py:15] Empezando metodo seleccionar
+05:27:36 PM: DEBUG [UsuarioDAO.py:22] Se extrajo exitosamente la lista de usuarios
+05:27:36 PM: DEBUG [CursorPool.py:17] Se inicia metodo __exit__
+05:27:36 PM: DEBUG [CursorPool.py:23] Commit de la transaccion
+05:27:36 PM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x00000186B21597A0; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:27:36 PM: DEBUG [UsuarioDAO.py:31] []
+05:40:32 PM: DEBUG [CursorPool.py:11] Inicia el metodo __enter__
+05:40:32 PM: DEBUG [Conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000022587C21A90>
+05:40:32 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x0000022589931580; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:40:32 PM: DEBUG [UsuarioDAO.py:29] Empezando metodo insertar
+05:40:32 PM: DEBUG [UsuarioDAO.py:32] Se ha insertado exitosamente el Usuario: id 1, username: dgdude, password: admin a la base de datos
+
+05:40:32 PM: DEBUG [CursorPool.py:17] Se inicia metodo __exit__
+05:40:32 PM: DEBUG [CursorPool.py:23] Commit de la transaccion
+05:40:32 PM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x0000022589931580; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:40:32 PM: DEBUG [UsuarioDAO.py:41] Usuarios insertados: 1
+05:40:32 PM: DEBUG [CursorPool.py:11] Inicia el metodo __enter__
+05:40:32 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x0000022589931580; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:40:32 PM: DEBUG [UsuarioDAO.py:15] Empezando metodo seleccionar
+05:40:32 PM: DEBUG [UsuarioDAO.py:22] Se extrajo exitosamente la lista de usuarios
+
+05:40:32 PM: DEBUG [CursorPool.py:17] Se inicia metodo __exit__
+05:40:32 PM: DEBUG [CursorPool.py:23] Commit de la transaccion
+05:40:32 PM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x0000022589931580; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:40:32 PM: DEBUG [UsuarioDAO.py:45] [<Usuario.Usuario object at 0x00000225899EAB10>]
+05:43:31 PM: DEBUG [CursorPool.py:11] Inicia el metodo __enter__
+05:43:31 PM: DEBUG [Conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001B7E73F1A90>
+05:43:31 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x000001B7E8E51470; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:43:31 PM: DEBUG [UsuarioDAO.py:15] Empezando metodo seleccionar
+05:43:31 PM: DEBUG [UsuarioDAO.py:22] Se extrajo exitosamente la lista de usuarios
+
+05:43:31 PM: DEBUG [CursorPool.py:17] Se inicia metodo __exit__
+05:43:31 PM: DEBUG [CursorPool.py:23] Commit de la transaccion
+05:43:31 PM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x000001B7E8E51470; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:43:31 PM: DEBUG [UsuarioDAO.py:48] [<Usuario.Usuario object at 0x000001B7E8F0A9D0>]
+05:44:44 PM: DEBUG [CursorPool.py:11] Inicia el metodo __enter__
+05:44:44 PM: DEBUG [Conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000011574A91A90>
+05:44:44 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x0000011576511470; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:44:44 PM: DEBUG [UsuarioDAO.py:15] Empezando metodo seleccionar
+05:44:44 PM: DEBUG [UsuarioDAO.py:22] Se extrajo exitosamente la lista de usuarios
+
+05:44:44 PM: DEBUG [CursorPool.py:17] Se inicia metodo __exit__
+05:44:44 PM: DEBUG [CursorPool.py:23] Commit de la transaccion
+05:44:44 PM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x0000011576511470; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:44:44 PM: DEBUG [UsuarioDAO.py:48] Usuario: id 1, username: dgdude, password: admin
+05:45:46 PM: DEBUG [CursorPool.py:11] Inicia el metodo __enter__
+05:45:47 PM: DEBUG [Conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000017D327A9C90>
+05:45:47 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x0000017D326F1470; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:45:47 PM: DEBUG [UsuarioDAO.py:15] Empezando metodo seleccionar
+05:45:47 PM: DEBUG [UsuarioDAO.py:22] Se extrajo exitosamente la lista de usuarios
+
+05:45:47 PM: DEBUG [CursorPool.py:17] Se inicia metodo __exit__
+05:45:47 PM: DEBUG [CursorPool.py:23] Commit de la transaccion
+05:45:47 PM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x0000017D326F1470; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:45:47 PM: DEBUG [UsuarioDAO.py:48] Usuario: id 1, username: dgdude, password: admin
+05:48:31 PM: DEBUG [CursorPool.py:11] Inicia el metodo __enter__
+05:48:31 PM: DEBUG [Conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002ADB6F38250>
+05:48:31 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x000002ADB6E61470; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:48:31 PM: DEBUG [UsuarioDAO.py:15] Empezando metodo seleccionar
+05:48:31 PM: DEBUG [UsuarioDAO.py:22] Se extrajo exitosamente la lista de usuarios
+
+05:48:31 PM: DEBUG [CursorPool.py:17] Se inicia metodo __exit__
+05:48:31 PM: DEBUG [CursorPool.py:23] Commit de la transaccion
+05:48:31 PM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x000002ADB6E61470; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:48:31 PM: DEBUG [UsuarioDAO.py:48] Usuario: id 1, username: dgdude, password: admin
+05:49:06 PM: DEBUG [CursorPool.py:11] Inicia el metodo __enter__
+05:49:06 PM: DEBUG [Conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001FEA8D0E190>
+05:49:06 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x000001FEA8C61470; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:49:06 PM: DEBUG [UsuarioDAO.py:15] Empezando metodo seleccionar
+05:49:06 PM: DEBUG [UsuarioDAO.py:22] Se extrajo exitosamente la lista de usuarios
+
+05:49:06 PM: DEBUG [CursorPool.py:17] Se inicia metodo __exit__
+05:49:06 PM: DEBUG [CursorPool.py:23] Commit de la transaccion
+05:49:06 PM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x000001FEA8C61470; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:49:06 PM: DEBUG [UsuarioDAO.py:48] Usuario: id 1, username: dgdude, password: admin
+05:51:27 PM: DEBUG [CursorPool.py:11] Inicia el metodo __enter__
+05:51:27 PM: DEBUG [Conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000016A4AAF8250>
+05:51:27 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x0000016A4AA21470; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:51:27 PM: DEBUG [UsuarioDAO.py:15] Empezando metodo seleccionar
+05:51:27 PM: DEBUG [UsuarioDAO.py:22] Se extrajo exitosamente la lista de usuarios
+
+05:51:27 PM: DEBUG [CursorPool.py:17] Se inicia metodo __exit__
+05:51:27 PM: DEBUG [CursorPool.py:23] Commit de la transaccion
+05:51:27 PM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x0000016A4AA21470; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:51:27 PM: DEBUG [UsuarioDAO.py:48] Usuario: id 1, username: dgdude, password: admin
+05:55:51 PM: DEBUG [CursorPool.py:11] Inicia el metodo __enter__
+05:55:51 PM: DEBUG [Conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002D88BA3BF50>
+05:55:51 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x000002D88B975580; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:55:51 PM: DEBUG [UsuarioDAO.py:29] Empezando metodo insertar
+05:55:51 PM: DEBUG [UsuarioDAO.py:32] Se ha insertado exitosamente el Usuario: id 2, username: lotitupi, password: admin a la base de datos
+
+05:55:51 PM: DEBUG [CursorPool.py:17] Se inicia metodo __exit__
+05:55:51 PM: DEBUG [CursorPool.py:23] Commit de la transaccion
+05:55:51 PM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x000002D88B975580; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:55:51 PM: DEBUG [UsuarioDAO.py:42] Usuarios insertados: 1
+05:55:51 PM: DEBUG [CursorPool.py:11] Inicia el metodo __enter__
+05:55:51 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x000002D88B975580; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:55:51 PM: DEBUG [UsuarioDAO.py:15] Empezando metodo seleccionar
+05:55:51 PM: DEBUG [UsuarioDAO.py:22] Se extrajo exitosamente la lista de usuarios
+
+05:55:51 PM: DEBUG [CursorPool.py:17] Se inicia metodo __exit__
+05:55:51 PM: DEBUG [CursorPool.py:23] Commit de la transaccion
+05:55:51 PM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x000002D88B975580; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:55:51 PM: DEBUG [UsuarioDAO.py:48] Usuario: id 1, username: dgdude, password: admin
+05:55:51 PM: DEBUG [UsuarioDAO.py:48] Usuario: id 2, username: lotitupi, password: admin
+05:56:39 PM: DEBUG [CursorPool.py:11] Inicia el metodo __enter__
+05:56:39 PM: DEBUG [Conexion.py:27] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000017FD9C28250>
+05:56:39 PM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x0000017FD9B51470; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
+05:56:39 PM: DEBUG [UsuarioDAO.py:15] Empezando metodo seleccionar
+05:56:39 PM: DEBUG [UsuarioDAO.py:22] Se extrajo exitosamente la lista de usuarios
+
+03:38:26 PM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x000002904E265360; dsn: 'user=postgres password=xxx dbname=laboratorio_usuarios host=127.0.0.1 port=5432', closed: 0>
